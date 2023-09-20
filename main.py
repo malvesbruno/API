@@ -93,8 +93,8 @@ def get_product(product_name):
             'products':  best_prices
         }
         return jsonify(product_data), 200
-    except:
-        product_data = {'products': ''}
+    except Exception as e:
+        product_data = {'products': '{e}'}
         return jsonify(product_data), 200
 
 
