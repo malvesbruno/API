@@ -94,7 +94,7 @@ def get_product(product_name):
         }
         return jsonify(product_data), 200
     except Exception as e:
-        product_data = {'products': '{e}'}
+        product_data = {'products': f'{e}'}
         return jsonify(product_data), 200
 
 
