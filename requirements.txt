@@ -26,6 +26,6 @@ trio==0.22.2
 trio-websocket==0.10.4
 urllib3==2.0.4
 waitress==2.1.2
-webdriver-manager==2.2.3
+webdriver-manager==4.0.0
 Werkzeug==2.3.7
 wsproto==1.2.0
